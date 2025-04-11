@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya.dev | Portfolio</title>
+    <meta name="description" content="Portfolio of Aditya, a Web Developer and D365 Engineer showcasing projects, skills, and contact information.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="logo">Aditya.dev</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm Aditya 👋</h1>
+                <h2>Web Developer | D365 Engineer | Tech Enthusiast</h2>
+                <p>I build modern websites and enterprise solutions.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#" class="btn secondary">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero-image.svg" alt="Developer Illustration">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate B.Tech Computer Science student and D365 Developer with hands-on experience in building modern web applications and enterprise solutions. My journey in technology started with a curiosity about how things work, which led me to explore various aspects of software development.</p>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>Education</h3>
+                            <p>B.Tech in Computer Science</p>
+                            <p>2020 - Present</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Experience</h3>
+                            <p>D365 Developer Intern</p>
+                            <p>2022 - Present</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Achievements</h3>
+                            <p>Microsoft Certified: D365 Developer</p>
+                            <p>2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/profile.jpg" alt="Aditya's Profile Picture">
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>My Work</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="assets/project1.jpg" alt="E-commerce Website Screenshot">
+                    <h3>E-commerce Website</h3>
+                    <p class="tech-stack">HTML, CSS, JavaScript, React</p>
+                    <p>A fully functional e-commerce platform with user authentication and payment integration.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn primary">Live Demo</a>
+                        <a href="#" class="btn secondary">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/project2.jpg" alt="D365 Automation Screenshot">
+                    <h3>D365 Workflow Automation</h3>
+                    <p class="tech-stack">C#, X++, D365 F&O</p>
+                    <p>Automated business processes in Dynamics 365 Finance and Operations.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn primary">Case Study</a>
+                        <a href="#" class="btn secondary">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/project3.jpg" alt="Portfolio Website Screenshot">
+                    <h3>Portfolio Website</h3>
+                    <p class="tech-stack">HTML, CSS, JavaScript</p>
+                    <p>A responsive portfolio website showcasing my projects and skills.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn primary">Live Demo</a>
+                        <a href="#" class="btn secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2>Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-icons">
+                        <i class="fab fa-html5" title="HTML5"></i>
+                        <i class="fab fa-css3-alt" title="CSS3"></i>
+                        <i class="fab fa-js" title="JavaScript"></i>
+                        <i class="fab fa-react" title="React"></i>
+                        <i class="fab fa-tailwind" title="Tailwind CSS"></i>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-icons">
+                        <i class="fab fa-golang" title="Go"></i>
+                        <i class="fab fa-microsoft" title="C#"></i>
+                        <i class="fas fa-database" title="SQL"></i>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-icons">
+                        <i class="fab fa-git-alt" title="Git"></i>
+                        <i class="fab fa-github" title="GitHub"></i>
+                        <i class="fab fa-docker" title="Docker"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <h2>What I Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Web Design</h3>
+                    <p>Creating beautiful and responsive web designs</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Custom Websites</h3>
+                    <p>Building tailored web solutions</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>D365 Automation</h3>
+                    <p>Enterprise workflow automation</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Let's Connect</h2>
+            <div class="contact-content">
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/yourprofile" class="social-icon" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/yourusername" class="social-icon" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="social-icon" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+                <form class="contact-form" aria-label="Contact Form">
+                    <input type="text" placeholder="Name" required aria-label="Name">
+                    <input type="email" placeholder="Email" required aria-label="Email">
+                    <textarea placeholder="Message" required aria-label="Message"></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 Aditya</p>
+        <p>Made with ❤️ using HTML + Tailwind CSS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
